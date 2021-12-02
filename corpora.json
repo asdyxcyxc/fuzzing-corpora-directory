@@ -103,6 +103,86 @@
         "corpus-format" : "wasm"
     },
     {
+        "url" : "gs://v8-wasm-fuzzer/0968ee6385235e4d183afc605360c5f239bf1c3e",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-fuzzer/15b443aa29a1f3edce81e0494d03cb9b8fb7ea25",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-fuzzer/1a9fb04f02e5602c8266e9f01e5358ce836bed64",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-fuzzer/25c2eb2a1d7fddac98cf3cdad539025e4d145a2e",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-fuzzer/2c03e48a14ae551a05aaf2536dee09b2b0bf88b7",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-fuzzer/3506995ccb599e92b046ff3791d35c24942ac2d3",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-fuzzer/43dbe4810e9b08a5add1dd4076e26410e18c828c",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-fuzzer/5d825d87b92bccbf73eff7e5b0531bf723762d07",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-fuzzer/6ff06dbd90438a2c9818be5938e4c1ba4fbb1c25",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-fuzzer/8d258f9051199e974d83e7dd8da0ecee26b69725",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-fuzzer/93a9736f74fc77336e8af7795e29bf59665406a5",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-fuzzer/a1493bb387aed38462c49f4351dc47e79e4b784b",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-fuzzer/a957f05aee9163fc8ee5bf9d66508480aba88152",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-fuzzer/f115805d49f1a72d6b017dd69f6aff88256b19b3",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-fuzzer/f6b95b7dd8300efa84b6382f16cfcae4ec9fa108",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-fuzzer/f79cf321bca34d18f51b189dc3ce760690d09d44",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
         "url" : "oss-fuzz://wolfssl/cryptofuzz-normal-math",
         "url-format" : "directory",
         "corpus-format" : "cryptofuzz-negative"
