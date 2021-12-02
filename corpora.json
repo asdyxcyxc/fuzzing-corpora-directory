@@ -27,6 +27,11 @@
         "corpus-format" : "wasm"
     },
     {
+        "url" : "oss-fuzz://wabt/wasm2wat_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "wasm"
+    },
+    {
         "url" : "https://github.com/wasmx/wasm-fuzzing-corpus.git",
         "url-format": "directory",
         "path" : "wasm",
