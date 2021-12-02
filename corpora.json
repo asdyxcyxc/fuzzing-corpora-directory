@@ -17,6 +17,12 @@
         "corpus-format" : "wasm"
     },
     {
+        "url" : "https://github.com/pventuzelo/wasm_runtimes_fuzzing.git",
+        "url-format" : "directory",
+        "path" : "trophies",
+        "corpus-format" : "wasm"
+    },
+    {
         "url" : "oss-fuzz://wasmtime/instantiate",
         "url-format" : "directory",
         "corpus-format" : "wasm"
