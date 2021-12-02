@@ -1,0 +1,220 @@
+[
+    {
+        "url" : "https://github.com/pepyakin/wasm-fuzz-corpus.git",
+        "url-format" : "directory",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "https://github.com/near/wasm-corpus.git",
+        "url-format": "directory",
+        "path" : "compile",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "https://github.com/EOSIO/eos-vm.git",
+        "url-format" : "directory",
+        "path" : "tests/fuzz/corpus",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "oss-fuzz://wasmtime/instantiate",
+        "url-format" : "directory",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "oss-fuzz://wasm3/fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "https://github.com/wasmx/wasm-fuzzing-corpus.git",
+        "url-format": "directory",
+        "path" : "wasm",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-asmjs-fuzzer/262e81514be82db14104da2e109957d2d633b648",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-asmjs-fuzzer/3a2c9658f3f644c7b8c309201b964fedc2766f9c",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-asmjs-fuzzer/3f1abe7358b8d01d35b5a3f0114b58e9a7badc6a",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-asmjs-fuzzer/5b7636100ebdc0b1d40def9807efbd310d179b6f",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-asmjs-fuzzer/7b2dfdc28ef6112d2f47615ad46974caab1d965b",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-asmjs-fuzzer/7f8f38576fdf9bab6034022aa4071b0e4cb0b8c5",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-asmjs-fuzzer/8a3cecc56ee76a09f9cb619ebc07fa6b55347f0d",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-asmjs-fuzzer/907b7a7723fa3516db66d25a35d1729244ca1eef",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-asmjs-fuzzer/b2496de42790f31a96ba4f6fbea703ae41216955",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-asmjs-fuzzer/cf1777646f8d4557504442e9bd59e908519ffec8",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-asmjs-fuzzer/dcbbfd0c415816cf6f426e86a3e84ea9ee59809a",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-asmjs-fuzzer/ec40c2e864dc023142ad50f74f68262932ef7081",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-asmjs-fuzzer/f1b18ceb19a59d531a3c4f088755fd24749303c4",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "gs://v8-wasm-asmjs-fuzzer/ffc5bea8aaef065be5e79975ba04a6d34151b813",
+        "url-format" : "tar-gz",
+        "corpus-format" : "wasm"
+    },
+    {
+        "url" : "oss-fuzz://wolfssl/cryptofuzz-normal-math",
+        "url-format" : "directory",
+        "corpus-format" : "cryptofuzz-negative"
+    },
+    {
+        "url" : "oss-fuzz://wolfssl/cryptofuzz-disable-fastmath",
+        "url-format" : "directory",
+        "corpus-format" : "cryptofuzz-negative"
+    },
+    {
+        "url" : "oss-fuzz://wolfssl/cryptofuzz-sp-math",
+        "url-format" : "directory",
+        "corpus-format" : "cryptofuzz-negative"
+    },
+    {
+        "url" : "oss-fuzz://wolfssl/cryptofuzz-sp-math-all",
+        "url-format" : "directory",
+        "corpus-format" : "cryptofuzz-negative"
+    },
+    {
+        "url" : "oss-fuzz://wolfssl/cryptofuzz-sp-math-all-8bit",
+        "url-format" : "directory",
+        "corpus-format" : "cryptofuzz-negative"
+    },
+    {
+        "url" : "oss-fuzz://libressl/cryptofuzz",
+        "url-format" : "directory",
+        "corpus-format" : "cryptofuzz"
+    },
+    {
+        "url" : "oss-fuzz://libecc/cryptofuzz-libecc",
+        "url-format" : "directory",
+        "corpus-format" : "cryptofuzz"
+    },
+    {
+        "url" : "oss-fuzz://num-bigint/cryptofuzz",
+        "url-format" : "directory",
+        "corpus-format" : "cryptofuzz-negative"
+    },
+    {
+        "url" : "oss-fuzz://nettle/cryptofuzz-nettle-with-libgmp",
+        "url-format" : "directory",
+        "corpus-format" : "cryptofuzz"
+    },
+    {
+        "url" : "oss-fuzz://nettle/cryptofuzz-nettle-with-mini-gmp",
+        "url-format" : "directory",
+        "corpus-format" : "cryptofuzz"
+    },
+    {
+        "url" : "oss-fuzz://relic/cryptofuzz-relic",
+        "url-format" : "directory",
+        "corpus-format" : "cryptofuzz"
+    },
+    {
+        "url" : "oss-fuzz://rustcrypto/cryptofuzz",
+        "url-format" : "directory",
+        "corpus-format" : "cryptofuzz"
+    },
+    {
+        "url" : "oss-fuzz://bearssl/cryptofuzz-bearssl",
+        "url-format" : "directory",
+        "corpus-format" : "cryptofuzz"
+    },
+    {
+        "url" : "oss-fuzz://libressl/cryptofuzz",
+        "url-format" : "directory",
+        "corpus-format" : "cryptofuzz"
+    },
+    {
+        "url" : "oss-fuzz://bls-signatures/cryptofuzz-bls-signatures",
+        "url-format" : "directory",
+        "corpus-format" : "cryptofuzz"
+    },
+    {
+        "url" : "oss-fuzz://bls-signatures/cryptofuzz-bls-signatures_optimize_size",
+        "url-format" : "directory",
+        "corpus-format" : "cryptofuzz"
+    },
+    {
+        "url" : "oss-fuzz://openssl/x509",
+        "url-format" : "directory",
+        "corpus-format" : "x509"
+    },
+    {
+        "url" : "oss-fuzz://boringssl/cert",
+        "url-format" : "directory",
+        "corpus-format" : "x509"
+    },
+    {
+        "url" : "oss-fuzz://libressl/x509",
+        "url-format" : "directory",
+        "corpus-format" : "x509"
+    },
+    {
+        "url" : "oss-fuzz://mbedtls/fuzz_x509crt",
+        "url-format" : "directory",
+        "corpus-format" : "x509"
+    },
+    {
+        "url" : "oss-fuzz://botan/cert",
+        "url-format" : "directory",
+        "corpus-format" : "x509"
+    },
+    {
+        "url" : "oss-fuzz://go-ethereum/fuzzVmRuntime",
+        "url-format" : "directory",
+        "corpus-format" : "evm-bytecode"
+    },
+    {
+        "url" : "oss-fuzz://xvid/fuzzer-decoder",
+        "url-format" : "directory",
+        "corpus-format" : "xvid"
+    }
+]
