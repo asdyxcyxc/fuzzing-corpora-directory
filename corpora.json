@@ -307,5 +307,85 @@
         "url" : "oss-fuzz://xvid/fuzzer-decoder",
         "url-format" : "directory",
         "corpus-format" : "xvid"
+    },
+    {
+        "url" : "oss-fuzz://poppler/util_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "pdf"
+    },
+    {
+        "url" : "oss-fuzz://poppler/pdf_draw_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "pdf"
+    },
+    {
+        "url" : "oss-fuzz://poppler/qt_pdf_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "pdf"
+    },
+    {
+        "url" : "oss-fuzz://poppler/qt_search_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "pdf"
+    },
+    {
+        "url" : "oss-fuzz://poppler/find_text_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "pdf"
+    },
+    {
+        "url" : "oss-fuzz://poppler/qt_textbox_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "pdf"
+    },
+    {
+        "url" : "oss-fuzz://poppler/doc_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "pdf"
+    },
+    {
+        "url" : "oss-fuzz://poppler/pdf_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "pdf"
+    },
+    {
+        "url" : "oss-fuzz://poppler/doc_attr_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "pdf"
+    },
+    {
+        "url" : "oss-fuzz://poppler/qt_annot_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "pdf"
+    },
+    {
+        "url" : "oss-fuzz://poppler/page_label_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "pdf"
+    },
+    {
+        "url" : "oss-fuzz://poppler/pdf_file_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "pdf"
+    },
+    {
+        "url" : "oss-fuzz://poppler/page_search_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "pdf"
+    },
+    {
+        "url" : "oss-fuzz://poppler/qt_label_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "pdf"
+    },
+    {
+        "url" : "oss-fuzz://poppler/label_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "pdf"
+    },
+    {
+        "url" : "oss-fuzz://poppler/annot_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "pdf"
     }
 ]
