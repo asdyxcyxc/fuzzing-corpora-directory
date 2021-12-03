@@ -422,5 +422,35 @@
         "url" : "oss-fuzz://golang/csv_fuzzer",
         "url-format" : "directory",
         "corpus-format" : "csv"
+    },
+    {
+        "url" : "oss-fuzz://openjpeg/opj_decompress_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "jpeg2000"
+    },
+    {
+        "url" : "oss-fuzz://image-png/decode",
+        "url-format" : "directory",
+        "corpus-format" : "png"
+    },
+    {
+        "url" : "oss-fuzz://grok/grk_decompress_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "jpeg2000"
+    },
+    {
+        "url" : "oss-fuzz://skia/image_decode",
+        "url-format" : "directory",
+        "corpus-format" : ["jpeg", "gif", "png", "tiff"]
+    },
+    {
+        "url" : "oss-fuzz://libtiff/tiff_read_rgba_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "tiff"
+    },
+    {
+        "url" : "oss-fuzz://libspng/spng_read_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "png"
     }
 ]
