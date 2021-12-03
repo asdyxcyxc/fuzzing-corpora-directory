@@ -387,5 +387,40 @@
         "url" : "oss-fuzz://poppler/annot_fuzzer",
         "url-format" : "directory",
         "corpus-format" : "pdf"
+    },
+    {
+        "url" : "oss-fuzz://golang/jpeg_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "jpeg"
+    },
+    {
+        "url" : "oss-fuzz://golang/png_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "png"
+    },
+    {
+        "url" : "oss-fuzz://golang/tar_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "tar"
+    },
+    {
+        "url" : "oss-fuzz://golang/zip_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "zip"
+    },
+    {
+        "url" : "oss-fuzz://golang/xml_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "xml"
+    },
+    {
+        "url" : "oss-fuzz://golang/json_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "json"
+    },
+    {
+        "url" : "oss-fuzz://golang/csv_fuzzer",
+        "url-format" : "directory",
+        "corpus-format" : "csv"
     }
 ]
