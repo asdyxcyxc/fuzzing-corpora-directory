@@ -452,5 +452,15 @@
         "url" : "oss-fuzz://libspng/spng_read_fuzzer",
         "url-format" : "directory",
         "corpus-format" : "png"
+    },
+    {
+        "url" : "oss-fuzz://quickjs/fuzz_compile",
+        "url-format" : "directory",
+        "corpus-format" : "javascript"
+    },
+    {
+        "url" : "oss-fuzz://quickjs/fuzz_eval",
+        "url-format" : "directory",
+        "corpus-format" : "javascript"
     }
 ]
